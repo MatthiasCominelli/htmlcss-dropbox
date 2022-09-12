@@ -1,4 +1,4 @@
-/* Global setup */
+/* Global */
 * {
     margin: 0;
     padding: 0;
@@ -108,4 +108,46 @@ nav div:last-child button {
 
 nav img, nav ul, nav button, nav li {
     display: inline-block;
+}
+
+/* hero */
+.hero {
+    min-height: 740px;
+    padding-top: 100px;
+    background-color: var(--light-blu);
+    position: relative;
+}
+
+.hero h1 {
+    font-size: var(--font-xxl);
+    padding-bottom: 70px;
+}
+
+.hero p {
+    font-size: var(--font-m);
+}
+
+.hero button {
+    margin: 35px 0;
+}
+
+.hero i {
+    padding-top: 80px;
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+.inner-hero {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inner-hero div {
+    flex-basis: 50%;
+    margin-bottom: -80px;
+}
+
+.inner-hero img {
+    flex-basis: 50%;
+    width: 50vw;
 }

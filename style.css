@@ -182,7 +182,7 @@ main section:nth-child(1) div:first-of-type label {
     margin-right: 50px;
 }
 
-/* section plans - first col */
+/* Sezione Piani - first col */
 .plans {
     display: flex;
     justify-content: flex-start;
@@ -262,4 +262,64 @@ main section:nth-child(1) div:first-of-type label {
     width: 50px;
     margin-top: 50px;
     margin-bottom: 35px;
+}
+
+/* Sezione Piani - last col */
+.inner-col-3 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 35px;
+}
+
+.inner-col-3 div:nth-child(1) {
+    text-align: left;
+    flex-basis: 70%;
+}
+
+.inner-col-3 div:nth-child(2) {
+    text-align: right;
+    flex-basis: 30%;
+}
+
+.inner-col-3 div button {
+    width: 100%;
+}
+
+.inner-col-3 h3 {
+    font-size: var(--font-l);
+    padding-bottom: 30px;
+}
+
+.inner-col-3 h4 {
+    font-size: var(--font-m);
+    padding-bottom: 60px;
+}
+
+.inner-col-3 p {
+    font-size: var(--font-m);
+}
+
+/* section partner */
+#section-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#section-2 img {
+    width: 600px;
+}
+
+.box {
+    padding: 50px;
+}
+
+.box h3 {
+    padding-bottom: 15px;
+    font-size: var(--font-l);
+}
+
+.box p {
+    padding-bottom: 40px;
+    font-size: var(--font-m);
 }

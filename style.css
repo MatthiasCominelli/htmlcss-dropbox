@@ -323,3 +323,35 @@ main section:nth-child(1) div:first-of-type label {
     padding-bottom: 40px;
     font-size: var(--font-m);
 }
+
+/* Features */
+#section-3 {
+    padding-top: 150px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#section-3 h2 {
+    padding-bottom: 100px;
+    font-size: var(--font-xl);
+    font-weight: var(--font-bold);
+}
+
+.features div h3 {
+    font-size: var(--font-l);
+    font-weight: var(--font-bold);
+    padding-bottom: 40px;
+}
+
+.features div {
+    width: calc((100% - 100px) / 3);
+}
+
+.features img {
+    width: 100%;
+}

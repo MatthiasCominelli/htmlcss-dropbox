@@ -595,3 +595,33 @@ main section:nth-child(1) div:first-of-type label {
     transform: rotate(0deg);
     transition: 0.5s;
 }
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+footer ul li {
+    font-size: var(--font-m);
+    padding-bottom: 10px;
+}
+
+footer ul li:hover:not(li:first-child) {
+    font-size: var(--font-m);
+    padding-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer ul li:first-child {
+    font-weight: var(--font-bold);
+    padding-bottom: 25px;
+}
